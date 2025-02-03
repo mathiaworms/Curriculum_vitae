@@ -48,6 +48,12 @@ export const RESUME_DATA = {
       start: "2024",
       end: "2025",
     },
+    {
+      school: "Institut Lemonnier",
+      degree: "Bac ELEEC / Electrotechnique , Energie et equipement communiquant",
+      start: "2012",
+      end: "2015",
+    }
   ],
   work: [
     {
