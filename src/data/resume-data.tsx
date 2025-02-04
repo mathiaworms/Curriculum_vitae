@@ -29,10 +29,10 @@ export const RESUME_DATA = {
     </>
   ),
   avatarUrl: "https://media.discordapp.net/attachments/1307810156603772999/1335903062287450143/matete-cv.png?ex=67a1dc2d&is=67a08aad&hm=b337d8e38d3db1447d17e33afbfab1793b6608dde5e6f09b767fb1dec46f5e2a&=&format=webp&quality=lossless",
-  personalWebsiteUrl: "https://github.com/mathiaworms",
+  personalWebsiteUrl: "https://mathiaworms.github.com/",
   contact: {
     email: "matws-communication@outlook.fr",
-    tel: "+3319368791",
+    tel: "(+33) 0619368791",
     social: [
       {
         name: "GitHub",
