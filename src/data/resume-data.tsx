@@ -13,22 +13,19 @@ export const RESUME_DATA = {
   initials: "GM",
   location: "Belfort, France, 90000",
   locationLink: "https://www.google.com/maps/place/Belfort",
-  about: `Développeur Full Stack passionné, spécialisé dans le développement backend en C# et la conception d'architectures logicielles complexes. `,
+  about: `Développeur/DevOps passionné, spécialisé dans le développement backend en C# et la conception d'architectures complexes. `,
   about1: `Permis de conduire - Véhiculé `,
   about2: `Permis de travail Suisse - Permis G `,
   about3: `Né le 16 juillet 1997`,
   about4: `Concubinage`,
   summary: (
     <>
-      Développeur Full Stack avec une expertise en C# et Vue.js, 
-      principalement sur des projets liés aux serveurs de jeu et aux systèmes distribués. 
-      Expérience approfondie en développement backend, DevOps et gestion de projet technique à distance. 
-      Ancien chef de cuisine reconverti, alliant rigueur, adaptabilité et esprit d'équipe au service du développement logiciel.
-
-      
+Développeur Full Stack spécialisé en C#/.NET, j’ai conçu et déployé une infrastructure logicielle complète pour un serveur de jeu, incluant une orchestration réseau, une API Server et un système de gestion des connexions performant. J’ai également mis en place une infrastructure DevOps avec CI/CD, Docker et monitoring, assurant stabilité et scalabilité.
+Passionné par l’automatisation, j’ai aussi développé des mini-projets Arduino (ex. ouverture de portail à distance, contrôle d’équipements), combinant hardware et software.
+Je cherche un poste où je peux allier développement backend, gestion d’infrastructure et optimisation des performances.
     </>
   ),
-  avatarUrl: "https://media.discordapp.net/attachments/1307810156603772999/1335903062287450143/matete-cv.png?ex=67a1dc2d&is=67a08aad&hm=b337d8e38d3db1447d17e33afbfab1793b6608dde5e6f09b767fb1dec46f5e2a&=&format=webp&quality=lossless",
+  avatarUrl: "https://scontent-fra3-2.xx.fbcdn.net/v/t39.30808-1/464978851_8892199634157628_1761927261968470099_n.jpg?stp=c0.171.480.480a_dst-jpg_s100x100_tt6&_nc_cat=104&ccb=1-7&_nc_sid=e99d92&_nc_ohc=lGFAQJYw11UQ7kNvgGeuhde&_nc_oc=AdkhdAlZOsM3zV5HIsqH5uGO6nd9AYp3Ng-ulVZNeQOVTCxbevOSXKA0hqMg10H7l0k&_nc_zt=24&_nc_ht=scontent-fra3-2.xx&_nc_gid=7jOBoG9pOkscEVcFn86uFw&oh=00_AYHxWsC06UCPLCMuQDFSISWpabXdPUrOABb7Rp4yxngtiA&oe=67EB222C",
   personalWebsiteUrl: "https://mathiaworms.github.com/",
   contact: {
     email: "matws-communication@outlook.fr",
@@ -44,7 +41,7 @@ export const RESUME_DATA = {
   education: [
     {
       school: "O'clock",
-      degree: "Bac +3 / License : Administrateur système DevOps",
+      degree: "Bac +4 / License : Administrateur système DevOps",
       start: "2024",
       end: "2025",
     },
@@ -58,8 +55,8 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Averdrian Project - Remote",
-      link: "https://github.com/LeagueSandbox/GameServer",
-      badges: ["C#", "Vue3", "Java", "DevOps", "Reverse Engineering", "DevOps", "Infrastructure", "Docker"],
+      link: "https://github.com/404",
+      badges: ["C#", "Vue3", "Java", "Reverse Engineering", "DevOps", "Infrastructure", "Docker"],
       title: "Lead Dev",
       logo: null,
       start: "2021",
@@ -72,7 +69,16 @@ export const RESUME_DATA = {
         Projet privé. Pour plus d'informations, veuillez consulter mon portfolio ou me contacter par e-mail.
         <ul className="list-inside list-disc">
           <li>
-            Refonte et amélioration du <strong>serveur de jeu</strong> en C#, avec une optimisation des performances et une gestion efficace des connexions réseau.
+           Conception et développement d’un serveur de jeu scalable en C#, avec optimisation des performances et gestion avancée des connexions réseau.
+          </li>
+          <li>
+           Développement de processus DevOps : CI/CD, conteneurisation Docker, monitoring et orchestration.
+          </li>
+          <li>
+          Création d’un système d’orchestration pour automatiser le déploiement de services (Docker, Kubernetes).
+          </li>
+          <li>
+          Développement d’un launcher Electron/Vue 3 avec auto-update et système de gestion de versions.
           </li>
           <li>
             Mise en place du GameServer, Server API et infrastructure, en assurant leur interconnexion et leur stabilité.
@@ -88,6 +94,62 @@ export const RESUME_DATA = {
           </li>
           <li>
             Implémentation d'une infrastructure <strong>DevOps</strong> (CI/CD, Docker, monitoring).
+          </li>
+        </ul>
+      </>
+      ),
+    },
+    {
+      company: "2K Games / iGames",
+      link: "https://heroesofnewerth.com/",
+      badges: [
+        "USA",
+        "Remote",
+        "C++",
+        "Xml - Scripting ",
+        "GitLab",
+        " Infrastructure"
+      ],
+      title: "Développeur (Volontaire / Stage)",
+      logo: null,
+      start: "2024",
+      end: null,
+      description: (
+        <>
+        Participation en tant que volontaire sur certaines missions techniques, avec des interventions sur le gameplay et l'infrastructure du projet, afin d’aider à la renaissance de leurs principaux titres.
+        <ul className="list-inside list-disc">
+          <li>
+          Correction de scripts de personnages et d’items pour améliorer l’équilibrage du jeu.
+          </li>
+          <li>
+          Début de mise en place d’un serveur GitLab distant sur un bare-metal server pour la gestion du code source et des pipelines CI/CD.
+          </li>
+        </ul>
+      </>
+      ),
+    },
+    {
+      company: "O'clock",
+      link: "",
+      badges: [
+        "Remote", "France", "Kubernetes" , "Go" ,  "DevOps", "Infrastructure", "Docker"
+      ],
+      title: "Etudiant",
+      logo: null,
+      start: "2024",
+      end: "2025",
+      description: (
+        <>
+        Développement et gestion d’infrastructure
+        <ul className="list-inside list-disc">
+          <li>
+          Création d’un système d’orchestration pour automatiser le déploiement de services (Docker, Kubernetes).
+          </li>
+          <li>
+          Mise en place de monitoring avancé (Prometheus, Grafana, Loki).
+          </li>
+          <li>
+          Sécurisation et optimisation des services backend (reverse proxy, load balancing).
           </li>
         </ul>
       </>
@@ -111,21 +173,6 @@ export const RESUME_DATA = {
           <li>
             Gestion de la cuisine de A à Z, en étant le seul chef à bord, ce qui incluait la préparation des plats, la gestion des stocks, et la supervision de la qualité en cuisine.
           </li>
-          <li>
-            Adaptation réussie à un nouveau pays (Suisse), où j'ai dû m'adapter à un environnement de travail différent, aux exigences locales et aux habitudes culinaires spécifiques à la région.
-          </li>
-          <li>
-            Création et ajustement des menus pour répondre à la demande des clients, tout en optimisant les coûts et en garantissant une qualité constante malgré des ressources limitées.
-          </li>
-          <li>
-            Mise en place de processus et d'une gestion du temps efficaces afin de garantir un service rapide et une cuisine de qualité dans un environnement dynamique.
-          </li>
-          <li>
-            Prise en charge complète de la gestion des stocks, avec un souci constant de réduction du gaspillage alimentaire tout en maximisant l'utilisation des ressources disponibles.
-          </li>
-          <li>
-            Développement d'une autonomie complète dans la gestion de la cuisine, avec la responsabilité exclusive de maintenir une cohésion entre les différentes étapes de la production et du service.
-          </li>
         </ul>
       </>
       ),
@@ -143,19 +190,7 @@ export const RESUME_DATA = {
       En charge de la gestion administrative et comptable pour un hôpital en Normandie, avec la responsabilité d'un rôle combiné où j'ai remplacé deux personnes sur un poste unique, tout en assurant la gestion des factures des officines et le suivi de 120 infirmières en hospitalisation à domicile.
       <ul className="list-inside list-disc">
         <li>
-          Prise en charge de la gestion des factures et des paiements pour les officines, en assurant une gestion rigoureuse et conforme des processus administratifs et comptables.
-        </li>
-        <li>
           Responsabilité de la gestion des relations avec 120 infirmières en hospitalisation à domicile, avec suivi des prestations et des paiements, en optimisant les flux de communication entre les équipes médicales et administratives.
-        </li>
-        <li>
-          Gestion de la comptabilité interne, avec une attention particulière à la précision des documents financiers et la gestion des budgets alloués aux soins à domicile.
-        </li>
-        <li>
-          Collaboration étroite avec les départements médicaux et administratifs pour garantir une organisation fluide et une gestion efficace des ressources, tout en assurant la conformité légale.
-        </li>
-        <li>
-          Adaptation à des processus administratifs complexes en utilisant des outils numériques pour améliorer la précision des données et optimiser le temps consacré à la gestion administrative.
         </li>
       </ul>
     </>
@@ -175,21 +210,6 @@ export const RESUME_DATA = {
         <ul className="list-inside list-disc">
           <li>
             Gestion et supervision d'une équipe de 10+ personnes dans une cuisine à forte pression, en organisant les plannings et en assurant la formation continue pour maintenir un haut niveau de performance.
-          </li>
-          <li>
-            Adaptation rapide à des horaires de travail exigeants (soirées, week-ends, jours fériés) avec un engagement constant pour maintenir la productivité tout en préservant la cohésion d'équipe.
-          </li>
-          <li>
-            Gestion du stress au quotidien en coordonnant le service pendant les périodes de forte affluence, en prenant des décisions rapides tout en préservant la qualité des plats servis.
-          </li>
-          <li>
-            Mise en place de processus d'amélioration continue pour la gestion des stocks, la réduction des coûts et l'optimisation des méthodes de travail en cuisine, avec une évolution constante dans les pratiques culinaires et la gestion d'équipe.
-          </li>
-          <li>
-            Développement d'une culture d'équipe axée sur la rigueur, la collaboration et l'excellence, avec un soutien constant aux membres pour améliorer leurs compétences et leur épanouissement professionnel.
-          </li>
-          <li>
-            Introduction de nouvelles techniques et recettes, favorisant l'innovation en cuisine et l'évolution de l'offre du restaurant, en restant à l'écoute des tendances gastronomiques.
           </li>
         </ul>
       </>

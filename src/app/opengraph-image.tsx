@@ -36,15 +36,18 @@ export default async function Image() {
           }}
         >
           <img
-            src={RESUME_DATA.avatarUrl}
-            alt={RESUME_DATA.name}
-            style={{
-              width: "150px",
-              height: "150px",
-              borderRadius: "10%",
-              marginBottom: "2rem",
-            }}
-          />
+  src={RESUME_DATA.avatarUrl}
+  alt={RESUME_DATA.name}
+  style={{
+    width: "150px",
+    height: "150px",
+    borderRadius: "10%",
+    marginBottom: "2rem",
+    objectFit: "cover", // Recadre l'image pour qu'elle remplisse l'espace
+    objectPosition: "center", // Centre l'image dans son cadre
+  }}
+/>
+
           <div
             style={{
               fontSize: "3rem",
